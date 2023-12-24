@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    
+        section{
+            height: 170px;
+            width: 250px;
+            background-color: aqua;
+            animation-name:abc ;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            margin-left: 400px;
+            margin-top: 300px;
+            border-radius: 100%;
+
+        }
+        @keyframes abc {
+            0%{ background-image: url(./article.html);
+                 transform: scale(0);
+                 background-size: cover;
+                }
+            25%{ 
+                background-color: blanchedalmond; 
+                transform: scale(1);
+            }
+            50%{
+                background-image: url(./flower.jpg);
+                transform: scale(2);
+                background-size: cover;
+                transform: rotate3d(1,1,1,360deg);
+                
+                
+
+            }
+            75%{ 
+                background-image: url(./IMG_20201217_162438.jpg);
+                 transform: scale(2);
+                 background-size: cover;
+                }
+            100%{
+                 background-image:url(./lotus.jpg);
+                 transform: scale(3);
+                 background-size: cover;
+            }
+        }
+    </style>
+</head>
+</body>
+</html>
